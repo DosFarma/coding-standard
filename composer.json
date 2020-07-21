@@ -1,0 +1,21 @@
+{
+  "name": "dosfarma/coding-standard",
+  "description": "DosFarma Coding Standard for PHP_CodeSniffer.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Sergio Hernández Martínez",
+      "email": "sergio.hernandez@dosfarma.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DosFarma\\CodingStandard\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "pccomponentes/coding-standard": "1.1.6"
+  }
+}
