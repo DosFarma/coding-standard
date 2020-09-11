@@ -2,5 +2,6 @@
 <ruleset name="DosFarma Coding Standard">
     <rule ref="vendor/pccomponentes/coding-standard/src/ruleset.xml" >
         <exclude name="SlevomatCodingStandard.Classes.SuperfluousTraitNaming" />
+        <exclude name="SlevomatCodingStandard.Functions.RequireSingleLineCall.RequiredSingleLineCall" />
     </rule>
 </ruleset>
